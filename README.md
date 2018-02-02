@@ -1,4 +1,4 @@
-## Set up your Assignment
+## Set Up Your Assignment
 
 1.  If you haven't already, clone the class repository. See the instructions [here](https://github.com/SAIC-ATS/ARTTECH-3039#setup-options).
 2.  Accept the Assignment 00 invitation email. A repository called `https://github.com/SAIC-ARTTECH-3039-5039/Assignment_00-YOUR_USERNAME` will be created.
@@ -21,7 +21,7 @@ openFrameworks/
 
 5.  This workflow will apply to all future assignments. Just replace `Assignment_00` with `Assignment_XX`, where `XX` is the assignment number.
 
-## To submit an assignment
+## To Submit an Assignment
 
 1.  Make changes to code in the `TextRain` code. This may include both writing code and answering questions.
 2.  Stage your changes
