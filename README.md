@@ -21,7 +21,7 @@ openFrameworks/
 
 5.  This workflow will apply to all future assignments. Just replace `Assignment_00` with `Assignment_XX`, where `XX` is the assignment number.
 
-## To submit an assignment
+## To submit an Assignment
 
 1.  Make changes to code in the `TextRain` code. This may include both writing code and answering questions.
 2.  Stage your changes

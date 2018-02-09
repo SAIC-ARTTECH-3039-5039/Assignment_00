@@ -5,6 +5,11 @@ docs/*.tag
 _*/
 
 raw/
+models/
+data/
+libs/dlib/
+
+build-example*
 
 .compiler*
 config.make
@@ -12,6 +17,13 @@ Makefile
 Project.xcconfig
 *.xcodeproj
 *.plist
+
+example*/Makefile
+example*/config.make
+
+*.swp
+*.bg
+*.qbs
 
 *.sln
 *.vcxproj
