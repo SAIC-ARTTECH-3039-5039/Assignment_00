@@ -43,16 +43,19 @@ void ofApp::update()
         // Q. Functionally how is `auto&` different from `auto`?
         for (auto& c: characters)
         {
-            // Please translate the following psuedocode to C++.
+            while (c.y > 0 && camera.getPixels().getColor(std::size_t(c.x), std::size_t(c.y)).getBrightness() < brightnessThreshold)
+            {
+                c.y--;
+            }
 
-            // 1. While the current character is positioned atop a camera pixel
-            //    with a brightness less than `brightnessThreshold` AND the
-            //    character position is not already at the top of the screen,
-            //    move the character up one pixel.
-
-            // 2. If the current character has a position greater than or equal
-            //    to the height of the pixels, then reposition it back to the
-            //    top, otherwise, move it down one pixel.
+            if (c.y >= camera.getHeight())
+            {
+                c.y = 0;
+            }
+            else
+            {
+                c.y++;
+            }
         }
     }
 }
